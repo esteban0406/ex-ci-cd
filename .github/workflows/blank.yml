@@ -65,5 +65,5 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 cp utils.py s3://(bucket name)/(folder)/
-          aws s3 cp test_utils.py s3://(bucket name)/(folder)/
+          aws s3 cp utils.py s3://ex-ci/ficheros/
+          aws s3 cp test_utils.py s3://ex-ci/ficheros/
