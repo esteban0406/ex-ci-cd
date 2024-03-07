@@ -8,4 +8,4 @@ def test_suma():
     assert suma(20, 15) == 35
     assert suma(20, 40) == 60
     assert suma(20, 20) == 40
-    assert suma(30, 30) == 60 
+    assert suma(30, 30) == 60
