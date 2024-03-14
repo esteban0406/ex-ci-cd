@@ -61,11 +61,6 @@ jobs:
       - name: ls Buckets aws
         run: aws s3 ls
 
-      - name: debloy in Bucket aws
-        run: |
-          aws s3 cp utils.py s3://ex-ci/ficheros/
-          aws s3 cp test_utils.py s3://ex-ci/ficheros/
-
       - name: Deploy with Zappa
         run: |
           python -m venv env
